@@ -1,0 +1,36 @@
+ body {
+      background: url('https://img.freepik.com/free-photo/3d-render-network-communications-design-background-with-shallow-depth-field_1048-14612.jpg?ga=GA1.1.1282045916.1738737306&semt=ais_hybrid&w=740') no-repeat center center/cover;
+    }
+
+    .btn {
+      background: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      font-weight: bold;
+      transition: background 0.3s, color 0.3s;
+
+    }
+
+    .btn:hover {
+      background: black;
+      color: white;
+    }
+
+    .btn a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .animated-text {
+      font-size: 3rem;
+      font-weight:bold;
+    }
+
+    p {
+      width: 100%;
+      margin: auto;
+      text-overflow: ellipsis;
+      font-weight: bold;
+    }
